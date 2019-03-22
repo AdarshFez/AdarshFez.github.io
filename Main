@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
-<body style="background-color:powderblue;">
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
 
-<h2></h2>
-<p></p>
-
-<img src="fez.PNG" alt="fez.PNG" width="104" height="142">
-h1{
+h1 {
   color: white;
   text-align: center;
 }
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+</style>
+</head>
+<p></p>
+
+<img src="fez.PNG" alt="fez.PNG" width="104" height="142">
+
 <h1>Adarsh Kumar Home Page</h1>
 
 <p>Hello, My name is Adarsh Kumar, I am currently a Senior at Siena College for Computer Science .</p>
 <p> I am making this page to try out what I learned <p>
 
-<h2>Links</h2>
+<h2>Links Currently Under de-bugging</h2>
 <p>Link to my resume:</p> <a href="github.com">Link to my resume</a>
 <p>Link to my Projects:</p> <a href="github.com">Link to projects</a>
 
+<h3> Enter number and hit the button, and I'll return a random picture <h3>
 </body>
 </html?
 
