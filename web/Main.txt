@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+body{
+background-color: lightblue;
+}
+h1{
+  color: white;
+  text-align: center;
+}
+<h1>Computer Science</h1>
+
+<p>Hello, My name is Adarsh Kumar, I am currently a Senior at Siena College for Computer Science .</p>
+<p> I am making this page to try out what I learned <p>
+
+<h2>Links</h2>
+<p>Link to my resume:</p>
+<a href="github.com">Link to my resume</a>
+<p>Link to my Projects:</p>
+<a href="github.com">Link to projects</a>
+
+</body>
+</html?
+
+<!--https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_paragraphs-->
