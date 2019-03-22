@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <body>
-body{
-background-color: lightblue;
-}
+
+<h2></h2>
+<p></p>
+
+<img src="fez.PNG" alt="fez.PNG" width="104" height="142">
 h1{
   color: white;
   text-align: center;
 }
-<h1>Computer Science</h1>
+<h1>Adarsh Kumar Home Page</h1>
 
 <p>Hello, My name is Adarsh Kumar, I am currently a Senior at Siena College for Computer Science .</p>
 <p> I am making this page to try out what I learned <p>
 
 <h2>Links</h2>
-<p>Link to my resume:</p>
-<a href="github.com">Link to my resume</a>
-<p>Link to my Projects:</p>
-<a href="github.com">Link to projects</a>
+<p>Link to my resume:</p> <a href="github.com">Link to my resume</a>
+<p>Link to my Projects:</p> <a href="github.com">Link to projects</a>
 
 </body>
 </html?
