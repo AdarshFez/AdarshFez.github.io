@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h2></h2>
+<p></p>
+
+<img src="scout.PNG" alt="scout.PNG" width="300" height="400">
+h1{
+  color: white;
+  text-align: center;
+}
+<h1>Adentures Of Scout</h1>
+
+<p>Hello, My name is Scout, I am the Best Girl, or thats atleast what my huuuoman says</p>
+<p> I am gonna use this page to share my Adventures as well as silly stories of my houuman<p>
+
+<h2>Button for my Adevntures</h2>
+<p>Button might be broken, sorry my paws can only code so fast:</p>
+
+<button>Adventure Time</button>
+
+
+</body>
+</html?
+
+<!--https://www.w3schools.com/html/tryit.asp?filename=tryhtml_basic_paragraphs-->
