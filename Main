@@ -29,7 +29,7 @@ p {
 <h2>Links Currently Under de-bugging</h2>
 <p>Link to my Resume:</p> <a href="https://AdarshFez.github.io/Resume_PDF.pdf">
 <p>Resume:</p>
-<p>Link to my Projects:</p> <a href="github.com">Link to projects</a>
+<p>Link to my Projects:</p> <a href="github.com"></a>
 
 <?php
 echo "My first PHP script!";
