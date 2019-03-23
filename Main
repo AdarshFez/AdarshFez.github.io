@@ -30,7 +30,9 @@ p {
 <p>Link to my resume:</p> <a href="github.com">Link to my resume</a>
 <p>Link to my Projects:</p> <a href="github.com">Link to projects</a>
 
-
+<?php
+echo "My first PHP script!";
+?>
 <h2>Random Picture Generator</h2>
 <form action="/action_page.php">
   Whats The Number You'd Like To Enter:<br>
