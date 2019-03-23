@@ -38,7 +38,7 @@ echo "My first PHP script!";
 <h2>Random Picture Generator</h2>
 <form action="/action_page.php">
   Whats The Number You'd Like To Enter:<br>
-  <input type="text" name="firstname" value="Enter Here">
+  <input type="text" name="firstname" value="">
   <br>
   <br>
   <input type="submit" value="Submit">
