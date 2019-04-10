@@ -1,6 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background-color: lightblue;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -19,8 +20,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+<img src="fez.PNG" alt="fez.PNG" width="104" height="142">
 h1 {
     font-size: 3em;
+    color: white;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
