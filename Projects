@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <body>
+    <nav>
+    		<ul>
+        		<li><a href="https://AdarshFez.github.io">Home</a></li>
+	        	
+        		
+    		</ul>
+		</nav>
+    </body>
     <title>Adarsh Kumar Projects</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
