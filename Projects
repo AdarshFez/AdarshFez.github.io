@@ -18,7 +18,7 @@
     </head>
 <p></p>
 
-<img src="fez.PNG" alt="fez.PNG" width="104" height="142">
+<center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
 
 <h1>Adarsh Kumar Projects</h1>
 
@@ -36,7 +36,7 @@
 <center><h5> Cheese Bot </h5></center>
 <p> Idea that was entered into a Google coding contest. The Turtlebot would make out and entire area and then proceed to follow a predetermined path
 and would actively look for objects in the way and avoid them. </p>
-<img src="IMG_0892.JPG" alt="IMG_0892.JPG" width="104" height="142">
+<center><img src="IMG_0892.JPG" alt="IMG_0892.JPG" width="104" height="142"></center>
 
 </body>
 </html>
