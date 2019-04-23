@@ -1,3 +1,4 @@
+    
 <!DOCTYPE html>
 <html>
 	<head>
@@ -9,43 +10,35 @@
 		<nav>
     		<ul>
         		<li><a href="https://AdarshFez.github.io">Home</a></li>
-	        	
+	        	<li><a href="https://AdarshFez.github.io/Projects">Projects</a></li>
+        		<li><a href="https://AdarshFez.github.io/ResumeProj.pdf">Resume With Projects</a></li>
+        		<li><a href="https://AdarshFez.github.io/Resume_PDF.pdf">CV</a></li>
     		</ul>
 		</nav>
 		<div class="container">
 			<center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
     		<div class="blurb">
-        		<h1>Hey, I got a question for you? </h1>
-				
-		<center><h1>Hey, I got a question for you?</h1></center>
-
-<p>	For</p>
-<p>		Our</p>
-<p>			Random</p>
-<p>				Malayan</p>
-<p>					Allergic</p>
-<p>						Lamb</p>
-<p>							?</p>
-
-<p><p>
-<center><h2> now that probably makes no sense at all?</h2></center>
-<center><p> well that was the idea my friend </p></center>
-
-<center><h3> Now </h3></center>
-<center><p> take all the capital letters from above</p></center>
-
-<center><p> Random picture of a dog, isn't scout cute? </p></center>
-<center><img src="scout.jpg" alt="IMG_0892.JPG" width="200" height="250"></center>
-<center><p> So that makes formal, so how about it? </p></center>
-<center><p> Go to formal with me? Picture below </p></center>
-<center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
-<center><p> its a fez btw ( the hat ) </p></center>	
-		
+        		<h1> Adarsh Kumar, Web Page Test Run </h1>
+				<p>I'm trying out what I learned about Html and databases</em> 
+			Webpage has a few bugs, but they will be fixed, soon Hopefully. <a href="/about">
+			Read more about my life...</a></p>
     		
-		
-		
-  	
+		<h2>Random Picture Generator</h2>
+		<form action="https://source.unsplash.com/random?sig=123">
+  		Whats The Number You'd Like To Enter:<br>
+  		<input type="text" name="firstname" value="">
+  		<br>
+  		<br>
+  		<input type="submit" value="Submit">
+		</form> 
+		<h3> Enter number and hit the button, and I'll return a random picture <h3>
+		</div><!-- /.blurb -->
+		</div><!-- /.container -->
 		<footer>
+    		<ul>
+        		<li><a href="mailto:AdarshFez@gmail.com">AdarshFez@gmail.com</a></li>
+        		<li><a href="https://github.com/AdarshFez">github.com/AdarshFez</a></li>
+			</ul>
 		</footer>
 	</body>
 </html>
