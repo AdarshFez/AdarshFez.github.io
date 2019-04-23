@@ -2,7 +2,7 @@
 <html>
     <head>
     <body>
-    <body>
+    
     <nav>
     		<ul>
         		<li><a href="https://AdarshFez.github.io">Home</a></li>
@@ -17,6 +17,7 @@
 
     </head>
 <p></p>
+<body>
 
 <center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
 
