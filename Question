@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <body>
-    
-    <nav>
+	<head>
+		<title>Adarsh Kumar, Web Page Test Run</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
     		<ul>
         		<li><a href="https://AdarshFez.github.io">Home</a></li>
 	        	
-        		
     		</ul>
 		</nav>
-    
-    <title>Hey Dude I got a question for you</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-
-    </head>
-
-<p></p>
-
-
-
-<center><h1>Hey, I got a question for you?</h1></center>
+		<div class="container">
+			<center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
+    		<div class="blurb">
+        		<h1>Hey, I got a question for you? </h1>
+				
+		<center><h1>Hey, I got a question for you?</h1></center>
 
 <p>	For</p>
 <p>		Our</p>
@@ -43,6 +39,13 @@
 <center><p> So that makes formal, so how about it? </p></center>
 <center><p> Go to formal with me? Picture below </p></center>
 <center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
-<center><p> its a fez btw ( the hat ) </p></center>
-</body>
+<center><p> its a fez btw ( the hat ) </p></center>	
+		
+    		
+		
+		
+  	
+		<footer>
+		</footer>
+	</body>
 </html>
