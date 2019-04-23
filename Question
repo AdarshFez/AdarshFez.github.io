@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <body>
+    <body>
+    <nav>
+    		<ul>
+        		<li><a href="https://AdarshFez.github.io">Home</a></li>
+	        	
+        		
+    		</ul>
+		</nav>
+    </body>
+    <title>Hey Dude I got a question for you</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+    </head>
+<p></p>
+
+<center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
+
+<h1>Adarsh Kumar Projects</h1>
+
+<p>Hello There, Well this is my projects Page. .</p>
+<p><p>
+<center><h2> HackUpstate 13 , <a href="https://devpost.com/software/projec-lord-falcon"> Project Lord Falcon</a></h2></center>
+<p> Well this was an Idea my friends and I thought of be our "hack" at the HackUpstate. </p>
+
+<center><h3> Project Packer </h3></center>
+<p> Mobile app Idea, My friend and I are currently working on. Not on the stage to make publicly yet </p>
+
+<center><h4> Pet R2D2 </h4></center>
+<p> Mobile app Idea, My friend and I are currently working on. Not on the stage to make publicly aviablable </p>
+
+<center><h5> Cheese Bot </h5></center>
+<p> Idea that was entered into a Google coding contest. The Turtlebot would make out and entire area and then proceed to follow a predetermined path
+and would actively look for objects in the way and avoid them. </p>
+<center><img src="IMG_0892.JPG" alt="IMG_0892.JPG" width="104" height="142"></center>
+
+</body>
+</html>
