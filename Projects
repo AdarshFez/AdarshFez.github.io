@@ -5,7 +5,8 @@
     
     <nav>
     		<ul>
-        		<li><a> href="https://AdarshFez.github.io">Home</a></li>
+			<li><a href="https://AdarshFez.github.io">Home</a></li>
+        		
 	        	
         		
     		</ul>
@@ -25,7 +26,7 @@
 
 <p>Hello There, Well this is my projects Page. </p>
 <p><p>
-<center><h2> HackUpstate 13 , <a> href="https://devpost.com/software/projec-lord-falcon" Project Lord Falcon</a></h2></center>
+<center><h2> HackUpstate 13 , <a href="https://devpost.com/software/projec-lord-falcon"> Project Lord Falcon</a></h2></center>
 <p> Well this was an Idea my friends and I thought of be our "hack" at the HackUpstate. </p>
 
 <center><h3> Project Packer </h3></center>
