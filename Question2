@@ -9,19 +9,15 @@
 		<nav>
     		<ul>
         		<li><a href="https://AdarshFez.github.io">Home</a></li>
-	        	<li><a href="https://AdarshFez.github.io/Projects">Projects</a></li>
-        		<li><a href="https://AdarshFez.github.io/ResumeProj.pdf">Resume With Projects</a></li>
-        		<li><a href="https://AdarshFez.github.io/Resume_PDF.pdf">CV</a></li>
-			<li><a href="https://AdarshFez.github.io/Question">Ques</a></li>
+	        	
     		</ul>
 		</nav>
 		<div class="container">
 			<center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
     		<div class="blurb">
-        		<h1> Adarsh Kumar, Web Page Test Run </h1>
+        		<h1> hey i got a question for you? </h1>
 				<p>I'm trying out what I learned about Html and databases</em> 
-			Webpage has a few bugs, but they will be fixed, soon Hopefully. <a href="/about">
-			Read more about my life...</a></p>
+			</p>
     		
 		<h2>Random Picture Generator</h2>
 		<form action="https://source.unsplash.com/random?sig=123">
