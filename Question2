@@ -1,40 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Adarsh Kumar, Web Page Test Run</title>
-		<!-- link to main stylesheet -->
+	
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
+	
 	<body>
-		<nav>
-    		<ul>
-        		<li><a href="https://AdarshFez.github.io">Home</a></li>
-	        	
-    		</ul>
-		</nav>
-		<div class="container">
-			<center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
-    		<div class="blurb">
-        		<h1> hey i got a question for you? </h1>
-				<p>I'm trying out what I learned about Html and databases</em> 
-			</p>
-    		
-		<h2>Random Picture Generator</h2>
-		<form action="https://source.unsplash.com/random?sig=123">
-  		Whats The Number You'd Like To Enter:<br>
-  		<input type="text" name="firstname" value="">
-  		<br>
-  		<br>
-  		<input type="submit" value="Submit">
-		</form> 
-		<h3> Enter number and hit the button, and I'll return a random picture <h3>
-		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:AdarshFez@gmail.com">AdarshFez@gmail.com</a></li>
-        		<li><a href="https://github.com/AdarshFez">github.com/AdarshFez</a></li>
-			</ul>
-		</footer>
+		<p> Hi </p>
 	</body>
 </html>
