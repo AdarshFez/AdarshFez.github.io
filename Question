@@ -5,7 +5,11 @@
 		
 	
 			<center><img src="fez.PNG" alt="fez.PNG" width="104" height="142"></center>
-    	
+    			<style>
+			body {
+			background-color: #d24dff
+			}
+			</style>
         		<center><h1> hey i got a question for you </h1></center>
 			<center><p> For </p></center>
 			<center><p> Our </p></center>
