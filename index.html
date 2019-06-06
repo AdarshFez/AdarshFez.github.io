@@ -35,11 +35,11 @@
 <?php
 
     // collect value of input field
-    $name = $_POST['fname']; 
+    $name = name; 
     if (empty($name)) {
         echo "Name is empty";
     } else {
-        echo '<i style="color:blue;font-size:30px;font-family:calibri ;">  $name';
+        echo "<div class='someClass'>$name</div>";
     }
 
 ?>
