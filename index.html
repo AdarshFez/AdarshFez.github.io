@@ -26,10 +26,22 @@
 		<h2>Random Picture Generator</h2>
 		<form action="https://source.unsplash.com/random?sig=123">
   		Whats The Number You'd Like To Enter:<br>
-  		<input type="text" name="firstname" value="">
-  		<br>
-  		<br>
-  		<input type="submit" value="Submit">
+  		<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+  Name: <input type="text" name="fname">
+  <input type="submit">
+</form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // collect value of input field
+    $name = $_POST['fname']; 
+    if (empty($name)) {
+        echo "Name is empty";
+    } else {
+        echo '<i style="color:blue;font-size:30px;font-family:calibri ;"> '. $name;
+    }
+}
+?>
 		</form> 
 		<h3> Enter number and hit the button, and I'll return a random picture <h3>
 		</div><!-- /.blurb -->
