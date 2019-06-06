@@ -33,7 +33,7 @@
 </form>
 
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
     // collect value of input field
     $name = $_POST['fname']; 
     if (empty($name)) {
@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo '<i style="color:blue;font-size:30px;font-family:calibri ;">  $name';
     }
-}
+
 ?>
 		
 		
