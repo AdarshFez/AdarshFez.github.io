@@ -7,9 +7,14 @@ body {
 }
 img{
     /*<img src="fez.PNG" alt="fez.PNG" width="104" height="142">*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width="104" height="142"
     border-color: red;
     border-width: 3px;
+    border-style: solid;
+
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
