@@ -1,7 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS</title>
+
+</head>
+<body>
+
+
+
+
 body {
     margin: 60px auto;
     width: 70%;
     background-color: lightblue;
+}
+img{
+    border-color: red;
+    border-width: 3px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -44,3 +59,5 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+</body>
+</html>
