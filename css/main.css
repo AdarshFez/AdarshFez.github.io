@@ -30,8 +30,9 @@ a:hover {
     text-decoration: underline;
 }
 div{
-    background: #3498db
+    background: rgb(255,100,80);
 }
+
 
 h1 {
     font-size: 3em;
@@ -42,6 +43,7 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #00FF00;
+    background: url(https://stlsash.com/wp-content/uploads/2015/07/dark-wood-texture-seamless22.jpg);
 }
 footer {
     border-top: 1px solid #d5d5d5;
