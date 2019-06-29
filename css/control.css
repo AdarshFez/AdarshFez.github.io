@@ -37,9 +37,14 @@ a:hover {
     text-decoration: underline;
 }
 div{
-    background: rgb(255,100,80);
+    background: rgb(255,100,80,.8);
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
 }
-
+#hat{
+    background: rgb(0,114,233,.8);
+}
 
 h1 {
     font-size: 3em;
