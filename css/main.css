@@ -47,7 +47,7 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
 }
-h2 {
+h {
     font-size: 3em;
     color: black;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -56,7 +56,7 @@ h2 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #00FF00;
+    color: #4cb799;
     background: url(https://stlsash.com/wp-content/uploads/2015/07/dark-wood-texture-seamless22.jpg);
     text-align: center;
 }
