@@ -1,9 +1,13 @@
+
+
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: lightblue;
+    background-color: #54206e;
 }
 img{
+    /*<img src="fez.PNG" alt="fez.PNG" width="104" height="142">*/
+    width="104" height="142"
     border-color: red;
     border-width: 3px;
 }
@@ -12,6 +16,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    color: black;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -19,21 +24,24 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #FF0000;
 }
 a:hover {
     text-decoration: underline;
 }
-<img src="fez.PNG" alt="fez.PNG" width="104" height="142">
+div{
+    background: #3498db
+}
+
 h1 {
     font-size: 3em;
-    color: white;
+    color: black;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #00FF00;
 }
 footer {
     border-top: 1px solid #d5d5d5;
@@ -43,6 +51,7 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    color: #355;
 }
 
 ul.posts li {
