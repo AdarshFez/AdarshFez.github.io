@@ -4,12 +4,32 @@ body {
     margin: 60px auto;
     width: 70%;
     background-color: #54206e;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 10s;
+}
+@-webkit-keyframes example {
+  from {background-color: #54206e;}
+  to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes example {
+   
+  
+  from {background-color: purple;}
+  to {background-color: blue;}
+ 
+
 }
 img{
     /*<img src="fez.PNG" alt="fez.PNG" width="104" height="142">*/
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
     width="104" height="142"
     border-color: red;
     border-width: 3px;
@@ -49,16 +69,20 @@ div{
 h1 {
     font-size: 3em;
     color: black;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'Notable';
+    /*'Helvetica', 'Georgia', 'Sans-Serif'*/
     text-align: center;
+    text-decoration: underline;
 }
 h2 {
     font-size: 3em;
     color: black;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-align: center;
+    text-decoration: underline;
 }
 p {
+    font-family: 'Inconsolata', monospace;
     font-size: 1.5em;
     line-height: 1.4em;
     color: #4cb799;
