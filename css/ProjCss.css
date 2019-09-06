@@ -1,0 +1,106 @@
+
+body {
+    margin: .1px auto;    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 10s;
+}
+@-webkit-keyframes example {
+  from {background-color: #54206e;}
+  to {background-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes example {
+   
+  
+  from {background-color: purple;}
+  to {background-color: blue;}
+ 
+
+}
+
+navbar,nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 1px;
+    list-style: none;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+
+
+
+
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #FF0000;
+}
+a:hover {
+    text-decoration: underline;
+}
+div{
+    background: rgb(255,100,80,.8);
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4px;
+    padding-top:0px;
+
+}
+#hat{
+    background: rgb(0,114,233,.8);
+}
+
+#content{
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: black;
+    font-family: 'Notable';
+    /*'Helvetica', 'Georgia', 'Sans-Serif'*/
+    text-align: center;
+    text-decoration: underline;
+}
+h2 {
+    font-size: 3em;
+    color: black;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    text-align: center;
+    text-decoration: underline;
+}
+p {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #4cb799;
+    background: url(https://stlsash.com/wp-content/uploads/2015/07/dark-wood-texture-seamless22.jpg);
+    text-align: center;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+    color: #355;
+}
+
+ul.posts li {
+    list-style: none;
+}
