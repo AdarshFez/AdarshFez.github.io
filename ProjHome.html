@@ -2,15 +2,26 @@
 <html>
 <head>
 	<title>Project Home</title>
-	<link rel="stylesheet" type="text/css" href= "bootstrap.css">
-	<link rel="stylesheet" type="text/css" href= "control.css">
+	<link rel="stylesheet" type="text/css" href= "/bootstrap-4.3.1-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href= "/control/ProjCss.css">
 	<style type="text/css">
 	.pink {
 
 		background: pink;
 		border: 1px solid purple;
 
-		}
+    }
+    img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .portrait {
+    height: 400px;
+    width: 525px;
+  }
+  .limit{
+    width:100px;
+  }
 
 		</style>
 
@@ -21,7 +32,7 @@
 <!-- Nav Bar  -->
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Adarsh Kumar</a>
+  <a class="navbar-brand" href="AdarshFez.github.io">Adarsh Kumar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -29,29 +40,31 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="C:\Users\Fez\Desktop\Coding\AdarshFez.github.io-master\homePage.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="AdarshFez.github.io">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="C:\Users\Fez\Desktop\Coding\AdarshFez.github.io-master\aboutMe.html">About me</a>
+        <a class="nav-link" href="AdarshFez.github.io-master\aboutMe.html">About Me</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Resumes
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Resume</a>
-          <a class="dropdown-item" href="#">Technical Resume</a>
+          <a class="dropdown-item" href="Resume_PDF.pdf">Resume</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">CV</a>
+          <a class="dropdown-item" href="TechnicalRes.pdf">Technical Resume</a>     
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Projects</a>
+        
+          <a class="nav-link" href="AdarshFez.github.io\ProjHome.html">Projects</a>
+        
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <input class="form-control mr-sm-2" type="search" placeholder="Currently Disabled" aria-label="Search">
+      <button class="nav-link disabled"   type="submit">Search</button>
+    <!-- </button>"btn btn-outline-success my-2 my-sm-0" -->
     </form>
   </div>
 </nav>
@@ -64,25 +77,84 @@
 	<div class = "container">
 		
 		<div class ="jumbotron">
-			<h1> The Projects I have worked on</h1>
+			<h1> The Projects </h1>
 		</div>
 
   		<div class="row">
-    		<div class="col-lg-6 pink">Column1
-    			<div class = "thumbnail">
-    				<img src="https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-    			</div>
-    		</div>
-
- 		    <div class="col-lg-6 pink">Column2</div>
-    	</div>
-        <div class="row">
-  			
-    		<div class="col-md-2 pink">Column1</div>
-    		<div class="col-md-8 pink">Column2</div>
-    		<div class="col-md-2 pink">Column2</div>
-    		
+    		<div class="col-lg-6"><h4><center>Project 1: CheeseBot</h4></center>
+    			<div class = "portrait">
+            <img src="https://i.imgur.com/WA37lVu.jpg">
+          </div>
+          <div> 
+            <p> CheeseBot, runs on a linux robot OS, coded in Python. The CheeseBot actively scans the room to avoid obstacles while moving around deliverying cheese.</p>
+          </div>
         </div>
-    </div>
+        
+        <div class="col-lg-6"><center><h4>Project 2: Lord Falcon</h4></center>
+            <div class = "portrait">
+              <img src="lordFalcon.jpg">
+            </div>
+            <div> 
+              <p> Won Best Gaming API at Upstate Hack (April 2019) Couch co-op multiplayer game that runs on an Angular 7 Framework and Firebase server-less backend Makes API calls to TCG-API.</p>
+            </div>
+          </div>
+ 		    
+    	</div>
+      <div class="row">
+          <div class="col-lg-6"><h4><center>Project 3: Pet R2D2</h4></center>
+            <div class = "portrait">
+              <img src="R2D2.jpg">
+            </div>
+            <div> 
+              <p> R2D2, runs on a Raspberry Pi, coded in Python with a mySql backend. R2 runs on a battery which scans users as they enter the room, if the user matches one in the database, R2 will say hello otherwise R2 will ask user to identify and add to 
+                database.</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-6"><center><h4>Project 4: Project Packer</h4></center>
+              <div class = "portrait">
+                <img src="Native.png">
+              </div>
+              <div> 
+                <p> Using NativeScript to run a Mobile app on the frontend, and using AWS as the backend.</p>
+              </div>
+            </div>
+           
+        </div>
+        <div class="row">
+          <div class="col-lg-6"><h4><center>Project 5: Ticket To Ride</h4></center>
+            <div class = "portrait">
+              <iframe width="518" height="395"
+              src="TTRDemo.mp4">
+              </iframe>
+            </div>
+            <div> 
+              <p> The Classic Board Game: Ticket To Ride, Now in Java. This board game is run in Java BlueJay and NetBeans IDE.</p>
+            </div>
+          </div>
+          
+          <div class="col-lg-6"><center><h4>Project 6: Lazer Maze</h4></center>
+              <div class = "portrait">
+                <img src="lazer.jfif">
+              </div>
+              <div> 
+                <p> Group project running in Java using Netbeans and BlueJay IDE.</p>
+              </div>
+            </div>
+           
+        </div>
+        <div class="row">
+          <div class="col-lg-6"><h4><center>Project 7: Maze Runner</h4></center>
+            <div class = "portrait">
+                <iframe width="518" height="395"
+                src="RunFromYourselF.mp4">
+                </iframe>
+            </div>
+            <div> 
+              <p> My Try to making a VR game that functions. Unfortunately the VR didn't workout well but making the maze run in 3D as well as First Person came out nicely .</p>
+            </div>
+          </div>
+           
+        </div>     
 </body>
 </html>
