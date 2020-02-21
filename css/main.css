@@ -1,11 +1,11 @@
+
+
 body {
     margin: 60px auto;
     width: 70%;
     background-color: lightblue;
 }
 img{
-    /*<img src="fez.PNG" alt="fez.PNG" width="104" height="142">*/
-    width="104" height="142"
     border-color: red;
     border-width: 3px;
 }
@@ -26,7 +26,8 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+<img src="fez.PNG" alt="fez.PNG" width="104" height="142">
+}
 h1 {
     font-size: 3em;
     color: white;
@@ -42,12 +43,33 @@ footer {
     font-size: .8em;
 }
 
+
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
-    color: #355;
 }
 
 ul.posts li {
     list-style: none;
+}
+.footer {
+
+    height:24px;
+    width: 100%; 
+    background-color: darkgray;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+
+}   
+
+.footer_contents {
+
+    height:24px; 
+    width: 1000px; 
+    margin:auto;
+
 }
